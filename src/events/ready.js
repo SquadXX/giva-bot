@@ -11,7 +11,7 @@ module.exports = class extends BaseEvent {
   async run(client) {
     client.forceSweep(70);
     client.startSweepInterval();
-client.user.setActivity(`!help | Version : 2.31.0`, { type : "WATCHING" })
+client.user.setActivity(`This Version is a Beta Version of the Giva Bot | !support`, { type : "PLAYING" })
   }
 };
 
